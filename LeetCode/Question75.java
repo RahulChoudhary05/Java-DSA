@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Question75 {
     public void sortColors(int[] nums) {
-        int mid = 0;
+        int mid = 0;                   
         int start = 0;
         int end = nums.length - 1;
 
@@ -22,7 +22,7 @@ public class Question75 {
                     break;
 
                 case 2:
-                    swap(nums, start, end);
+                    swap(nums, mid, end);
                     end--;
                     break;
             }
