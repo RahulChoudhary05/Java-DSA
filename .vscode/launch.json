@@ -1,0 +1,356 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BinarySearchUnsortedArray",
+            "request": "launch",
+            "mainClass": "BinarySearchUnsortedArray",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "Question1672",
+            "request": "launch",
+            "mainClass": "LeetCode.Question1672",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "Question1295",
+            "request": "launch",
+            "mainClass": "LeetCode.Question1295",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch2DArray",
+            "request": "launch",
+            "mainClass": "LinearSearch2DArray",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearchFindMaxNo",
+            "request": "launch",
+            "mainClass": "LinearSearchFindMaxNo",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearchFindMinNo",
+            "request": "launch",
+            "mainClass": "LinearSearchFindMinNo",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearchInRange",
+            "request": "launch",
+            "mainClass": "LinearSearchInRange",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearchStringSingleWord",
+            "request": "launch",
+            "mainClass": "LinearSearchStringSingleWord",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearchString",
+            "request": "launch",
+            "mainClass": "LinearSearchString",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "LinearSearch",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "ArrayMultidimensional2D",
+            "request": "launch",
+            "mainClass": "ArrayMultidimensional2D",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "ArrayFunction",
+            "request": "launch",
+            "mainClass": "ArrayFunction",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Attach by Process ID",
+            "processId": "${command:PickJavaProcess}"
+        },
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "Array",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "ArrayInput",
+            "request": "launch",
+            "mainClass": "ArrayInput",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "BreakStatement",
+            "request": "launch",
+            "mainClass": "BreakStatement",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "BreakStatementExOne",
+            "request": "launch",
+            "mainClass": "BreakStatementExOne",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "ButterflyPattern",
+            "request": "launch",
+            "mainClass": "ButterflyPattern",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "CharacterHalfPyramidPattern",
+            "request": "launch",
+            "mainClass": "CharacterHalfPyramidPattern",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "ContinueStatement",
+            "request": "launch",
+            "mainClass": "ContinueStatement",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "ContinueStatementExOne",
+            "request": "launch",
+            "mainClass": "ContinueStatementExOne",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "DiamondPattern",
+            "request": "launch",
+            "mainClass": "DiamondPattern",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "DiamondStarPattern",
+            "request": "launch",
+            "mainClass": "DiamondStarPattern",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "DoWhileLoop",
+            "request": "launch",
+            "mainClass": "DoWhileLoop",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "ForLoop",
+            "request": "launch",
+            "mainClass": "ForLoop",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "ForLoopExOne",
+            "request": "launch",
+            "mainClass": "ForLoopExOne",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "FunctionAddMultTwoNo",
+            "request": "launch",
+            "mainClass": "FunctionAddMultTwoNo",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "FunctionCalculateFactorial",
+            "request": "launch",
+            "mainClass": "FunctionCalculateFactorial",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "FunctionParameters",
+            "request": "launch",
+            "mainClass": "FunctionParameters",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "HalfPyramidPatternNo",
+            "request": "launch",
+            "mainClass": "HalfPyramidPatternNo",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "HollowRectanglePattern",
+            "request": "launch",
+            "mainClass": "HollowRectanglePattern",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "InvertedStarPattern",
+            "request": "launch",
+            "mainClass": "InvertedStarPattern",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "MultiplicationTable",
+            "request": "launch",
+            "mainClass": "MultiplicationTable",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "NumberPyramidPattern",
+            "request": "launch",
+            "mainClass": "NumberPyramidPattern",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "PrimeOrNot",
+            "request": "launch",
+            "mainClass": "PrimeOrNot",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "PrintNameFunction",
+            "request": "launch",
+            "mainClass": "PrintNameFunction",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "SolidRhombusPattern",
+            "request": "launch",
+            "mainClass": "SolidRhombusPattern",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "SqareEvenNo",
+            "request": "launch",
+            "mainClass": "SqareEvenNo",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "StarPattern",
+            "request": "launch",
+            "mainClass": "StarPattern",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "WhileLoop",
+            "request": "launch",
+            "mainClass": "WhileLoop",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "WhileLoopExFive",
+            "request": "launch",
+            "mainClass": "WhileLoopExFive",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "WhileLoopExFour",
+            "request": "launch",
+            "mainClass": "WhileLoopExFour",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "WhileLoopExOne",
+            "request": "launch",
+            "mainClass": "WhileLoopExOne",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "WhileLoopExThree",
+            "request": "launch",
+            "mainClass": "WhileLoopExThree",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "WhileLoopExTwo",
+            "request": "launch",
+            "mainClass": "WhileLoopExTwo",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "ZeroAndOnePattern",
+            "request": "launch",
+            "mainClass": "ZeroAndOnePattern",
+            "projectName": "JavaCode DSA_5fc84e31"
+        }
+    ]
+}
