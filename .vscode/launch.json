@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Question34",
+            "request": "launch",
+            "mainClass": "Question34",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "Question744",
+            "request": "launch",
+            "mainClass": "LeetCode.Question744",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchFloorNo",
+            "request": "launch",
+            "mainClass": "BinarySearchFloorNo",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchCeilingNo",
+            "request": "launch",
+            "mainClass": "BinarySearchCeilingNo",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
             "name": "BinarySearchUnsortedArray",
             "request": "launch",
             "mainClass": "BinarySearchUnsortedArray",

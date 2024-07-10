@@ -16,12 +16,16 @@ public class BinarySearchUnsortedArray {
 
         int target = 22;
         int result = BinarySearchCode(arr, target);
+        int resultMin = BinarySearchCodeMin(arr, target);
+        int resultMax = BinarySearchCodeMax(arr, target);
 
         String notFound = "Element not found";
         if (result == -1) {
             System.out.println(notFound); // If result is -1, print the notFound message
         } else {
             System.out.println("Here is the index number of " + target + " value is: " + result);
+            System.out.println("Minimum index of " + target + " value is: " + resultMin);
+            System.out.println("Maximum index of " + target + " value is: " + resultMax);
         }
     }
 
@@ -49,5 +53,45 @@ public class BinarySearchUnsortedArray {
             }
         }
         return -1;
+    }
+
+    static int BinarySearchCodeMin(int[] arr, int target) {
+        int start = 0;
+        int end = arr.length - 1;
+        int result = -1;
+
+        while (start <= end) {
+            int middle = start + (end - start) / 2;
+
+            if (target == arr[middle]) {
+                result = middle;
+                end = middle - 1;
+            } else if (target < arr[middle]) {
+                end = middle - 1;
+            } else {
+                start = middle + 1;
+            }
+        }
+        return result;
+    }
+
+    static int BinarySearchCodeMax(int[] arr, int target) {
+        int start = 0;
+        int end = arr.length - 1;
+        int result = -1;
+
+        while (start <= end) {
+            int middle = start + (end - start) / 2;
+
+            if (target == arr[middle]) {
+                result = middle;
+                start = middle + 1;
+            } else if (target < arr[middle]) {
+                end = middle - 1;
+            } else {
+                start = middle + 1;
+            }
+        }
+        return result;
     }
 }
