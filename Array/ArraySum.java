@@ -19,7 +19,7 @@ public class ArraySum{
         totalSum=totalSum+arr[i];
       }
       System.out.println("Sum of element is :"+totalSum);
-        
-
+      
     }
+    
 }

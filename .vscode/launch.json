@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Stack.Main",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "ISEmptyAndFull",
+            "request": "launch",
+            "mainClass": "Stack.ISEmptyAndFull",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
             "name": "ArraySum",
             "request": "launch",
             "mainClass": "ArraySum",
