@@ -19,6 +19,7 @@ Output: 1*/
 
 // Question 162 is same done👍
 
+package LeetCode;
 public class Question852 {
     public static void main(String[] args) {
         int[] arr1 = { 0, 1, 0 };

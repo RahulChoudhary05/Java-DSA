@@ -10,7 +10,7 @@ Example 2:
 
 Input: n = 1
 Output: 1*/
-
+package LeetCode;
 public class Question96 {
     public static void main(String[] args) {
         int n = 3;

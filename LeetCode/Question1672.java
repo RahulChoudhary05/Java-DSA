@@ -27,7 +27,7 @@ Input: accounts = [[2,8,7],[7,1,3],[1,9,5]]
 Output: 17
 */
 
-
+package LeetCode;
 
 public class Question1672 {
     public static void main(String[] args) {

@@ -13,7 +13,7 @@ Input: letters = ["c","f","j"], target = "a"
 Output: "c"
 Explanation: The smallest character that is lexicographically greater than 'a' in letters is 'c'.*/
 
-
+package LeetCode;
 
 public class Question744 {
     public static void main(String[] args) {

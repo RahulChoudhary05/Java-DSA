@@ -19,7 +19,7 @@ Explanation:
 Only 1771 contains an even number of digits.
 */
 
-
+package LeetCode;
 public class Question1295 {
     public static void main(String[] args) {
         int[] nums1 = { 12, 345, 2, 6, 7896 };
