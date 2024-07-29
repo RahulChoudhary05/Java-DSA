@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Frequency",
+            "request": "launch",
+            "mainClass": "Frequency",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
             "name": "Question410",
             "request": "launch",
             "mainClass": "LeetCode.Question410",
