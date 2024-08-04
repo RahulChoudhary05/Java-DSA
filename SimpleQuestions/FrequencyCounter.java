@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Frequency {
+public class FrequencyCounter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
