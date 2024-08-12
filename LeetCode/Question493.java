@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Question493 {
     static int merge(int[] arr, int low, int mid, int high) {
         ArrayList<Integer> temp = new ArrayList<>();
-        int left = low;      
+        int left = low;
         int right = mid + 1;
 
         int cnt = 0;
@@ -45,9 +45,10 @@ public class Question493 {
 
     public static int mergeSort(int[] arr, int low, int high) {
         int cnt = 0;
-        if (low >= high) return cnt;
+        if (low >= high)
+            return cnt;
         int mid = (low + high) / 2;
-        cnt += mergeSort(arr, low, mid);    
+        cnt += mergeSort(arr, low, mid);
         cnt += mergeSort(arr, mid + 1, high);
         cnt += merge(arr, low, mid, high);
         return cnt;
