@@ -21,10 +21,20 @@ public class Question148 {
     public static class ListNode {
         int val;
         ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
     }
+
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) {
             return head;
@@ -70,7 +80,7 @@ public class Question148 {
         return slow;
     }
 
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         // Create a sample linked list to test the sortList method
         ListNode head1 = new ListNode(4, new ListNode(2, new ListNode(1, new ListNode(3))));
         ListNode head2 = new ListNode(-1, new ListNode(5, new ListNode(3, new ListNode(4, new ListNode(0)))));
