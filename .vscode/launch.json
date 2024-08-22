@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BalancedBrackets",
+            "request": "launch",
+            "mainClass": "BalancedBrackets",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "GameOfTwoStacks",
+            "request": "launch",
+            "mainClass": "GameOfTwoStacks",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
             "name": "SingleLinkedList",
             "request": "launch",
             "mainClass": "SingleLinkedList",
