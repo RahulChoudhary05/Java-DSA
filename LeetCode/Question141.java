@@ -10,22 +10,26 @@ Output: true
 Explanation: There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).
 */
 package LeetCode;
+
 class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
+    int val;
+    ListNode next;
+
+    ListNode(int x) {
+        val = x;
+        next = null;
     }
+}
+
 public class Question141 {
-    public static void main (String[] args){
+    public static void main(String[] args) {
         ListNode head = new ListNode(3);
         head.next = new ListNode(2);
         head.next.next = new ListNode(0);
         head.next.next.next = new ListNode(-4);
 
-        // Connecting the 4th node to the 2nd node to create a cycle(see in image top line)
+        // Connecting the 4th node to the 2nd node to create a cycle(see in image top
+        // line)
         head.next.next.next.next = head.next;
 
         Question141 q = new Question141();
@@ -37,14 +41,15 @@ public class Question141 {
             System.out.println("The linked list does not have a cycle.");
         }
     }
+
     public boolean hasCycle(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
 
-        while(fast != null && fast.next != null){
+        while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
-            if(slow == fast){
+            if (slow == fast) {
                 return true;
             }
         }
