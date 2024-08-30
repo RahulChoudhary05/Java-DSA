@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RotateArray",
+            "request": "launch",
+            "mainClass": "RotateArray",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
             "name": "BubbleSort",
             "request": "launch",
             "mainClass": "Sorting.BubbleSort.BubbleSort",
