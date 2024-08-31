@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Question189",
+            "request": "launch",
+            "mainClass": "LeetCode.Question189",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
             "name": "RotateArray",
             "request": "launch",
             "mainClass": "RotateArray",
