@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AllAlphabetsPatter",
+            "request": "launch",
+            "mainClass": "AllAlphabetsPatter",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "StarSquarePatter",
+            "request": "launch",
+            "mainClass": "StarSquarePatter",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "SquarePattern",
+            "request": "launch",
+            "mainClass": "SquarePattern",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
             "name": "FindMaxElementSpaceComplexity",
             "request": "launch",
             "mainClass": "FindMaxElementSpaceComplexity",
