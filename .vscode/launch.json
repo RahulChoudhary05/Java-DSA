@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AlphabetPattern",
+            "request": "launch",
+            "mainClass": "AlphabetPattern",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "AlphabetsPatter",
+            "request": "launch",
+            "mainClass": "AlphabetsPatter",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
             "name": "NumberPattern",
             "request": "launch",
             "mainClass": "NumberPattern",
