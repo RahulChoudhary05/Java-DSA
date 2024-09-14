@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Question75",
+            "request": "launch",
+            "mainClass": "LeetCode.Question75",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
             "name": "SelectionSort",
             "request": "launch",
             "mainClass": "Sorting.SelectionSort.SelectionSort",
