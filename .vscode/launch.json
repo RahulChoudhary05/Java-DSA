@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AddInLast",
+            "request": "launch",
+            "mainClass": "LinkedList.Add.AddInLast",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "AddInFirst",
+            "request": "launch",
+            "mainClass": "LinkedList.Add.AddInFirst",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
             "name": "InsertionSort",
             "request": "launch",
             "mainClass": "Sorting.InsertionSort.InsertionSort",
