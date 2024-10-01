@@ -13,7 +13,7 @@ public class InsertionSort {
         insertionSortCode(arr, n);
     }
     public static void insertionSortCode(int arr[], int n) {
-        for (int i = 1; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             int temp = arr[i];
             int j = i - 1;
             while (j >= 0 && arr[j] > temp) {
