@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 public class SelectionSort {
     public static void selectionsortcode(int arr[], int n) {
-        for (int i = 0; i < n - 2; i++) {
+        n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
             int minIndex = i;
             for (int j = i + 1; j < n; j++) {
                 if (arr[j] < arr[minIndex]) {
@@ -15,7 +16,7 @@ public class SelectionSort {
             int temp = arr[minIndex];
             arr[minIndex] = arr[i];
             arr[i] = temp;
-            System.out.println("Pass " + (i + 1) +
+            System.out.println("Pass " + i +
                     " " + Arrays.toString(arr));
         }
     }
