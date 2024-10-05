@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Question54 {
     public List<Integer> spiralOrder(int[][] matrix) {
-        // Check if the matrix is empt
+        // Check if the matrix is empty
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return new ArrayList<>();
         }
