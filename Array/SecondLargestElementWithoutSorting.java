@@ -9,7 +9,7 @@ public class SecondLargestElementWithoutSorting {
             System.out.println("Array must contain at least two elements.");
             return;
         }
-        
+
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) {
             System.out.print("Enter the " + (i + 1) + " numbers: ");
