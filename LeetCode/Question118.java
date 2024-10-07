@@ -11,11 +11,12 @@ public class Question118 {
         }
         return pascalTriangleResult;
     }
-    public List<Integer> generateRow(int row){
+
+    public List<Integer> generateRow(int row) {
         long ans = 1;
         List<Integer> pascalTriangleAns = new ArrayList<>();
         pascalTriangleAns.add(1);
-        for(int column = 1; column <= row; column++){
+        for (int column = 1; column <= row; column++) {
             ans = ans * (row - column + 1) / column;
             pascalTriangleAns.add((int) ans);
         }
