@@ -1,3 +1,5 @@
+package LeetCode;
+
 public class Question31 {
     public void nextPermutation(int[] nums) {
         int n = nums.length;
