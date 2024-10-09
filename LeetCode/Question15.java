@@ -29,3 +29,33 @@ public class Question15 {
  * }
  * 
  */
+
+/*
+ * Better Solution:
+ * class Solution {
+ * public List<List<Integer>> threeSum(int[] nums) {
+ * int n = nums.length;
+ * List<List<Integer>> ans = new ArrayList<>();
+ * HashSet<List<Integer>> uniqueTriplets = new HashSet<>();
+ * 
+ * Arrays.sort(nums);
+ * 
+ * for (int i = 0; i < n; i++) {
+ * int target = -nums[i];
+ * HashSet<Integer> hashset = new HashSet<>();
+ * 
+ * for (int j = i + 1; j < n; j++) {
+ * int third = target - nums[j];
+ * 
+ * if (hashset.contains(third)) {
+ * List<Integer> temp = Arrays.asList(nums[i], nums[j], third);
+ * uniqueTriplets.add(temp);
+ * }
+ * hashset.add(nums[j]);
+ * }
+ * }
+ * ans.addAll(uniqueTriplets);
+ * return ans;
+ * }
+ * }
+ */
