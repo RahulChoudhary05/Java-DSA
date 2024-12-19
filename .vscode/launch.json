@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountTotalDigits",
+            "request": "launch",
+            "mainClass": "CountTotalDigits",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
             "name": "SumOfNaturalNumber",
             "request": "launch",
             "mainClass": "SumOfNaturalNumber",
