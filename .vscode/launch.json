@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumOfNaturalNumber",
+            "request": "launch",
+            "mainClass": "SumOfNaturalNumber",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "KnapsackWithDP",
+            "request": "launch",
+            "mainClass": "KnapsackWithDP",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "MarcsCakewalk",
+            "request": "launch",
+            "mainClass": "MarcsCakewalk",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
             "name": "AddInLast",
             "request": "launch",
             "mainClass": "LinkedList.Add.AddInLast",
