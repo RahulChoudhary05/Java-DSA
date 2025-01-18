@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Question26",
+            "request": "launch",
+            "mainClass": "LeetCode.Question26",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "LeetCode.Solution",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "SecondLargestElementWithoutSorting",
+            "request": "launch",
+            "mainClass": "SecondLargestElementWithoutSorting",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
             "name": "Question73",
             "request": "launch",
             "mainClass": "LeetCode.Question73",
