@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "MaxArray",
+            "request": "launch",
+            "mainClass": "MaxArray",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "SwapArray",
+            "request": "launch",
+            "mainClass": "SwapArray",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeManagement",
+            "request": "launch",
+            "mainClass": "EmployeeManagement",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
             "name": "Print1tonWithoutLoop",
             "request": "launch",
             "mainClass": "Print1tonWithoutLoop",
