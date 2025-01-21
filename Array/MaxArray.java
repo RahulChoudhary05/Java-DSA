@@ -13,7 +13,7 @@ public class MaxArray {
         System.out.println("Array: " + Arrays.toString(arr));
         System.out.println("Max value in the array: " + max(arr));
         System.out.println("MaxRange value in the array: " + maxRange(arr, 0, 3));
-        System.out.println("Min value in the array: " + mix(arr));
+        System.out.println("Min value in the array: " + min(arr));
     }
 
     public static int max(int arr[]) {
@@ -36,13 +36,13 @@ public class MaxArray {
         return max;
     }
 
-    public static int mix(int arr[]) {
-        int max = arr[0];
+    public static int min(int arr[]) {
+        int min = arr[0];
         for(int i = 1; i < arr.length; i++){
-            if(arr[i] < max){
-               max = arr[i];
+            if(arr[i] < min){
+               min = arr[i];
           }
         }
-        return max;
+        return min;
     }
 }

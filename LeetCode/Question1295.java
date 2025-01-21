@@ -59,4 +59,9 @@ class Solution {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'maximumWealth'");
     }
+
+    public void Question73(int[][] matrix) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'Question73'");
+    }
 }
