@@ -13,17 +13,14 @@ public class Question136 {
     public static void main(String[] args) {
         Question136 question = new Question136();
         
-        // Example 1
         int[] nums1 = {2, 2, 1};
         System.out.println("Input: nums = [2, 2, 1]");
         System.out.println("Output: " + question.singleNumber(nums1)); 
         
-        // Example 2
         int[] nums2 = {4, 1, 2, 1, 2};
         System.out.println("Input: nums = [4, 1, 2, 1, 2]");
         System.out.println("Output: " + question.singleNumber(nums2));
 
-        // Example 3
         int[] nums3 = {1};
         System.out.println("Input: nums = [1]");
         System.out.println("Output: " + question.singleNumber(nums3));
