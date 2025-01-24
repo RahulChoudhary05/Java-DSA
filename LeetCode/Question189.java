@@ -28,7 +28,6 @@ public class Question189 {
         for (int i = 0; i < n; i++) {
             result[(i + d) % n] = arr[i];
         }
-        // Copy the rotated array back to the original array
         System.arraycopy(result, 0, arr, 0, n);
     }
 }
