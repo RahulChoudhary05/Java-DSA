@@ -11,7 +11,7 @@ public class Question2149 {
                 negativeIndex += 2;
             } else {
                 ans[positiveIndex] = nums[i];
-                positiveIndex += 2;
+                positiveIndex += 1;
             }
         }
         return ans;
