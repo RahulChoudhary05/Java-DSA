@@ -1,3 +1,5 @@
+package LeetCode;
+
 public class Question121 {
     public int maxProfit(int[] prices) {
         int profit = 0;
