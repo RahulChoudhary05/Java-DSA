@@ -1,3 +1,5 @@
+package LeetCode;
+
 public class Question169 {
     public int majorityElement(int[] nums) {
         int n = nums.length;
