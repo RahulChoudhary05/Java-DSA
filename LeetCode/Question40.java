@@ -12,14 +12,14 @@ public class Question40 {
         return result;
     }
 
-    private void backtrack(List<List<Integer>> result, List<Integer> combination, 
-                           int[] candidates, int target, int start) {
-        
+    private void backtrack(List<List<Integer>> result, List<Integer> combination,
+            int[] candidates, int target, int start) {
+
         if (target == 0) {
             result.add(new ArrayList<>(combination));
             return;
         }
-        
+
         for (int i = start; i < candidates.length; i++) {
             if (candidates[i] > target) {
                 break;
