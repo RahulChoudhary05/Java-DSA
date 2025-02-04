@@ -1,3 +1,5 @@
+package LeetCode;
+
 import java.util.HashMap;
 public class Question219 {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
