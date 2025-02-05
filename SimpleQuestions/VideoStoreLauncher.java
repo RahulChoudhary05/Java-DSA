@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 class Video {
     String title;
     boolean checkedOut;
@@ -36,7 +35,8 @@ class Video {
 
     @Override
     public String toString() {
-        return "Title: " + title + ", Checked Out: " + checkedOut + ", Average Rating: " + averageRating;
+        // Format the output in a table-like row
+        return String.format("| %-30s | %-12s | %-10.2f |", title, (checkedOut ? "Yes" : "No"), averageRating);
     }
 }
 
@@ -96,10 +96,13 @@ class VideoStore {
     }
 
     public void listInventory() {
-        System.out.println("Inventory:");
+        System.out.println("\nInventory:");
+        System.out.printf("| %-30s | %-12s | %-10s |\n", "Title", "Checked Out", "Avg. Rating");
+        System.out.println("------------------------------------------------------------");
         for (int i = 0; i < videoCount; i++) {
             System.out.println(inventory[i]);
         }
+        System.out.println("------------------------------------------------------------");
     }
 
     private Video findVideo(String title) {
@@ -110,6 +113,7 @@ class VideoStore {
         }
         return null;
     }
+
     public void interactiveAddVideo(Scanner scanner) {
         System.out.print("Enter the title of the new video: ");
         String title = scanner.nextLine(); // Use nextLine to handle spaces in titles
@@ -156,7 +160,7 @@ public class VideoStoreLauncher {
                         String ratingTitle = scanner.nextLine();
                         System.out.print("Enter the rating (1-5): ");
                         int rating = scanner.nextInt();
-                        scanner.nextLine();// Consume the newline character
+                        scanner.nextLine(); // Consume the newline character
                         store.receiveRating(ratingTitle, rating);
                         break;
                     case 5:
