@@ -1,5 +1,4 @@
 package String;
-
 import java.util.Arrays;
 
 public class Question242 {
@@ -9,7 +8,7 @@ public class Question242 {
         }
         char[] sSort = s.toCharArray();
         char[] tSort = t.toCharArray();
-        
+
         Arrays.sort(sSort);
         Arrays.sort(tSort);
 
