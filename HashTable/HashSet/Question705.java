@@ -1,5 +1,4 @@
 package HashTable.HashSet;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,25 +37,25 @@ class MyHashSet {
             this.buckets[i] = new Bucket();
         }
     }
-    
+
     private int getIndex(int key) {
         return key % numBuckets;
     }
 
     public void add(int key) {
-        //take bucket
+        // take bucket
         int bucketIndex = this.getIndex(key);
         this.buckets[bucketIndex].insert(key);
     }
-    
+
     public void remove(int key) {
-        //take bucket
+        // take bucket
         int bucketIndex = this.getIndex(key);
         this.buckets[bucketIndex].remove(key);
     }
-    
+
     public boolean contains(int key) {
-        //take bucket
+        // take bucket
         int bucketIndex = this.getIndex(key);
         return this.buckets[bucketIndex].contains(key);
     }
