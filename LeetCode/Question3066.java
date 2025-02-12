@@ -1,6 +1,6 @@
 package LeetCode;
 
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class Question3066 {
     public int minOperations(int[] nums, int k) {
