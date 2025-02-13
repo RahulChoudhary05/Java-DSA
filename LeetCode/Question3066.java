@@ -1,5 +1,7 @@
 package LeetCode;
 
+import java.util.PriorityQueue;
+
 public class Question3066 {
     public int minOperations(int[] nums, int k) {
         PriorityQueue<Long> pq = new PriorityQueue<>();
