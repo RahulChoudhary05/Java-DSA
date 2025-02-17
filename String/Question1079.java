@@ -1,7 +1,9 @@
+package String;
+
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+class Question1079 {
     int count = 0;
 
     public int numTilePossibilities(String tiles) {
