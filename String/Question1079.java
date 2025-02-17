@@ -8,7 +8,7 @@ class Question1079 {
 
     public int numTilePossibilities(String tiles) {
         Map<Character, Integer> charCount = new HashMap<>();
-        
+
         for (int i = 0; i < tiles.length(); i++) {
             char c = tiles.charAt(i);
             charCount.put(c, charCount.getOrDefault(c, 0) + 1);
@@ -24,7 +24,7 @@ class Question1079 {
         }
 
         for (int i = 'A'; i <= 'Z'; i++) {
-            char c = (char)i;
+            char c = (char) i;
             if (charCount.containsKey(c) && charCount.get(c) > 0) {
                 charCount.put(c, charCount.get(c) - 1);
                 backtrack(charCount, length + 1);
