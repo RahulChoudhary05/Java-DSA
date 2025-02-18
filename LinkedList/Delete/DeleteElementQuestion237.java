@@ -1,6 +1,6 @@
 package LinkedList.Delete;
 
-public class DeleteInMiddleQuestion237 {
+public class DeleteElementQuestion237 {
 
     public class ListNode {
         int val;
