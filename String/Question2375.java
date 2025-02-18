@@ -1,3 +1,5 @@
+package String;
+
 public class Question2375 {
     public String smallestNumber(String pattern) {
         int n = pattern.length();
