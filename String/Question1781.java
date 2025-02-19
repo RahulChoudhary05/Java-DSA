@@ -1,9 +1,11 @@
 package String;
 
+import java.util.*;
+
 public class Question1781 {
     public int getMaxNumber(int[] freq) {
         int maxCount = 0;
-        for (int i = 0; i <26; i++) {
+        for (int i = 0; i < 26; i++) {
             maxCount = Math.max(maxCount, freq[i]);
         }
         return maxCount;
@@ -11,8 +13,8 @@ public class Question1781 {
 
     public int getMinNumber(int[] freq) {
         int minCount = Integer.MAX_VALUE;
-        for (int i = 0; i <26; i++) {
-            if(freq[i] > 0){
+        for (int i = 0; i < 26; i++) {
+            if (freq[i] > 0) {
                 minCount = Math.min(minCount, freq[i]);
             }
         }
@@ -21,9 +23,9 @@ public class Question1781 {
 
     public int beautySum(String s) {
         int sum = 0;
-        for(int i = 0; i < s.length(); i++){
+        for (int i = 0; i < s.length(); i++) {
             int[] freq = new int[26];
-            for(int j = i; j< s.length(); j++){
+            for (int j = i; j < s.length(); j++) {
                 freq[s.charAt(j) - 'a']++;
                 int beauty = getMaxNumber(freq) - getMinNumber(freq);
                 sum += beauty;
