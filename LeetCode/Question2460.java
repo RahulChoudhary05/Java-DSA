@@ -1,3 +1,7 @@
+package LeetCode;
+
+import java.util.*;
+
 public class Question2460 {
     public int[] applyOperations(int[] nums) {
         for (int i = 0; i < nums.length - 1; i++) {
