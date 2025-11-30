@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NextRound158A",
+            "request": "launch",
+            "mainClass": "NextRound158A",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "Team231A",
+            "request": "launch",
+            "mainClass": "Team231A",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "BitPlusPlus",
+            "request": "launch",
+            "mainClass": "BitPlusPlus",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "WayTooLongWords",
+            "request": "launch",
+            "mainClass": "WayTooLongWords",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "Watermelon",
+            "request": "launch",
+            "mainClass": "Watermelon",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
+            "name": "LibrarySystem",
+            "request": "launch",
+            "mainClass": "LibrarySystem",
+            "projectName": "JavaCode DSA_5fc84e31"
+        },
+        {
+            "type": "java",
             "name": "DeleteElementByKValue",
             "request": "launch",
             "mainClass": "LinkedList.Delete.DeleteElementByKValue",
